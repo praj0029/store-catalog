@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Serif|Poppins');
+
+/*
+    Color Scheme:
+        #90001A
+        #A60303
+        #444444
+        #59554D
+        #8C8A7D
+
+    Fonts:
+        Heading:
+            font-family: 'PT Serif', serif;
+        Paragraph:
+            font-family: 'Poppins', sans-serif;
+
+*/
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.5;
+    font-size: 0.75rem;
+    
+}
+
+h1, h2{
+    font-family: 'PT Serif', sans-serif;
+    color: #90001A;
+    font-weight: bold;
+}
+
+p, li, a{
+    font-family: 'Poppins', sans-serif;
+    color:#444444;
+}
+
+ul li{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+    color: #FFF;
+}
+a:active,
+a:hover{
+    color: #8C8A7D;
+}
+
+.bg-dark,
+footer.bg-light{
+    background-color: #A60303 !important;
+    color: #FFF !important;
+}
+
+main.container{
+    margin: 0 auto;
+    width: 80%;
+}
+
+figure{
+    background-color: rgb(35, 33, 30, 0.5);
+}
+.card{
+    border-color: #8C8A7D;
+}
+
+.product-name{
+    text-transform: uppercase;
+}
+
+footer{
+    padding: 1rem 2.5rem;
+}
+footer span{
+    display:block;
+}
+
+footer .col{
+    padding: 1rem;
+}
+
+.footer-branding{
+    font-weight: bold;
+}
+
+.col p{
+    color: #FFF;
+}
+.social-media{
+    margin:0;
+    padding:0;
+}
+.social-media li{
+    display: inline-block;
+    margin-right: 1rem;
+    text-align: left;
+}
+
+
+@media (min-width: 36rem) {
+    body {
+        font-size: 1rem;
+    } 
+    
+}
+
+
